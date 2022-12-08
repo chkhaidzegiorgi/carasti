@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/carasti/static/css/main.4a187fa8.css",
+    "main.js": "/carasti/static/js/main.9a890ff8.js",
+    "static/js/705.bc5910a4.chunk.js": "/carasti/static/js/705.bc5910a4.chunk.js",
+    "static/js/787.841410cf.chunk.js": "/carasti/static/js/787.841410cf.chunk.js",
+    "static/js/186.6635aa19.chunk.js": "/carasti/static/js/186.6635aa19.chunk.js",
+    "static/media/logo.svg": "/carasti/static/media/logo.c1d6a5881e0707fd472c17fd9bc69ac3.svg",
+    "static/media/icon-delivery.svg": "/carasti/static/media/icon-delivery.68e75c0e1fed6153d6ea4ae9b97eea1a.svg",
+    "static/media/icon-wide.svg": "/carasti/static/media/icon-wide.e14d2d2bce4e7b0ca39b5508ee63da99.svg",
+    "static/media/icon-phone.svg": "/carasti/static/media/icon-phone.6a7bec72c31195bd006c99cb14911fc1.svg",
+    "static/media/icon-key.svg": "/carasti/static/media/icon-key.5904f1c8f5a61a673033719c89d5931b.svg",
+    "index.html": "/carasti/index.html",
+    "static/media/icon-home.svg": "/carasti/static/media/icon-home.55c36ba46e1d7ef705bdf5b30e5bce52.svg",
+    "static/media/icon-progress.svg": "/carasti/static/media/icon-progress.f76f9b4066acc5241c0ed25f366b6a80.svg",
+    "static/media/icon-arrow-down.svg": "/carasti/static/media/icon-arrow-down.9aa44d0fa0f8e1ed3c326ac7fade5680.svg",
+    "main.4a187fa8.css.map": "/carasti/static/css/main.4a187fa8.css.map",
+    "main.9a890ff8.js.map": "/carasti/static/js/main.9a890ff8.js.map",
+    "705.bc5910a4.chunk.js.map": "/carasti/static/js/705.bc5910a4.chunk.js.map",
+    "787.841410cf.chunk.js.map": "/carasti/static/js/787.841410cf.chunk.js.map",
+    "186.6635aa19.chunk.js.map": "/carasti/static/js/186.6635aa19.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4a187fa8.css",
+    "static/js/main.9a890ff8.js"
+  ]
+}

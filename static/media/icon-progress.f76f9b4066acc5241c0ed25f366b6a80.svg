@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="37 -5 120 100" width="120" height="100">
+    <path class="grey" d="M55,90
+             A55,55 0 1,1 140,90"
+        style="fill:none;" />
+    <path class="colored" d="M55,90
+             A55,55 0 1,1 140,90"
+        style="fill:none;" />
+</svg>
