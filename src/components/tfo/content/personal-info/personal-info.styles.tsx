@@ -45,4 +45,9 @@ export const ContactDetailValue = styled.div`
   color: #333333;
 `;
 
-
+export const Icon = styled.span`
+  margin-right: 1.8rem;
+  &:last-child {
+    margin-right: 0;
+  }
+`;

@@ -76,6 +76,7 @@ export const IconWrapper = styled.div<{
 export const ProgressBars = styled.div`
   display: flex;
   justify-content: space-around;
+  margin-top: 2rem;
 `;
 export const ProgressBar = styled.div`
   position: relative;

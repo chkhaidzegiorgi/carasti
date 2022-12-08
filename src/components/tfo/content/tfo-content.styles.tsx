@@ -1,3 +1,4 @@
+import { mediaMax } from "src/core/helpers/breakpoints";
 import styled from "styled-components";
 
 export const Content = styled.div`
@@ -5,10 +6,14 @@ export const Content = styled.div`
   flex-direction: row;
   padding: 4rem 3.8rem 0;
   justify-content: space-between;
+
+  ${mediaMax.xlarge} {
+    flex-wrap: wrap;
+  }
 `;
 
 export const Card = styled.div`
-  margin-right: 24px;
+  margin-right: 25px;
   border: 1px solid #dcdde0;
   box-shadow: 0px 4px 8px rgba(124, 128, 142, 0.06);
   border-radius: 24px;
@@ -16,6 +21,21 @@ export const Card = styled.div`
   width: calc((100% - (25px * 3)) / 4);
 
   &:last-child {
+    margin-right: 0;
+  }
+
+  ${mediaMax.xlarge} {
+    margin-right: 50px;
+    width: calc(50% - 25px);
+    margin-bottom: 50px;
+
+    &:nth-child(2n) {
+      margin-right: 0;
+    }
+  }
+
+  ${mediaMax.large} {
+    width: 100%;
     margin-right: 0;
   }
 `;

@@ -1,4 +1,5 @@
 import { createGlobalStyle } from "styled-components";
+import "react-tooltip/dist/react-tooltip.css";
 
 const GlobalStyle = createGlobalStyle`
 
@@ -55,6 +56,10 @@ const GlobalStyle = createGlobalStyle`
     margin: 0;
     padding: 0;
     font-family: Open-Sans, Helvetica, Sans-Serif;
+  }
+
+  .tooltip{
+    box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.16);
   }
 `;
 

@@ -5,6 +5,7 @@ import {
   ContactDetail,
   ContactDetailValue,
   FullName,
+  Icon,
   IconsWrapper,
   PersonalInfoWrapper,
   Status,
@@ -13,6 +14,7 @@ import { ReactComponent as IconDelivery } from "src/assets/images/icons/icon-del
 import { ReactComponent as IconPhone } from "src/assets/images/icons/icon-phone.svg";
 import profileImage from "src/assets/images/personal-profile.png";
 import { Breakline, Card } from "../tfo-content.styles";
+import { Tooltip } from "src/components/tooltip/tooltip";
 
 interface IProps {
   user: User;
@@ -32,7 +34,20 @@ export const PersonalInfo: FC<IProps> = ({ user, booking }) => {
         <Birthday>{user.date_of_birth}</Birthday>
 
         <IconsWrapper>
-          <IconDelivery /> <IconDelivery /> <IconDelivery />
+          <Icon id="icon-delivery">
+            <IconDelivery />
+            <Tooltip anchorId="icon-delivery" content="Delivery" />
+          </Icon>
+
+          <Icon id="icon-test1">
+            <IconDelivery />
+            <Tooltip anchorId="icon-test1" content="Test 1" />
+          </Icon>
+
+          <Icon id="icon-test2">
+            <IconDelivery />
+            <Tooltip anchorId="icon-test2" content="Test 2" />
+          </Icon>
         </IconsWrapper>
 
         <Status status={booking.primary_status}>

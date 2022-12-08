@@ -1,3 +1,4 @@
+import { mediaMax } from "src/core/helpers/breakpoints";
 import styled, { css } from "styled-components";
 
 export const TFOHeaderWrapper = styled.div`
@@ -14,7 +15,11 @@ export const TFOHeaderTitle = styled.h2`
 export const Actions = styled.div`
   display: flex;
   align-items: center;
+  ${mediaMax.xlarge} {
+    flex-wrap: wrap;
+  }
 `;
+
 export const Action = styled.div<{ highlighted?: boolean }>`
   ${({ highlighted }) => css`
     color: #007bff;
@@ -27,6 +32,7 @@ export const Action = styled.div<{ highlighted?: boolean }>`
     cursor: pointer;
     font-weight: 700;
     font-size: 1.4rem;
+    margin-bottom: 10px;
 
     &:last-child {
       margin-right: 0;
